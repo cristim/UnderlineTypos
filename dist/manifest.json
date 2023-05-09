@@ -1,0 +1,12 @@
+{
+  "name": "Underline Typos",
+  "version": "1.0",
+  "description": "Underline typos inside the current browser tab",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["content.js"]
+    }
+  ]
+}

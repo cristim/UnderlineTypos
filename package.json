@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "node-fetch": "^3.3.1",
+    "typo-js": "^1.2.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.8",
+    "@babel/preset-env": "^7.21.5",
+    "@types/node-fetch": "^2.6.3",
+    "@types/typo-js": "^1.2.0",
+    "babel-loader": "^9.1.2",
+    "copy-webpack-plugin": "^11.0.0",
+    "raw-loader": "^4.0.2",
+    "ts-loader": "^9.4.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4",
+    "webpack": "^5.82.0",
+    "webpack-cli": "^5.1.1"
+  },
+  "scripts": {
+    "download-dictionaries": "node download-dictionaries.mjs",
+    "build": "webpack"
+  }
+}
