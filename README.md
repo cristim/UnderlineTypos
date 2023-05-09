@@ -6,7 +6,7 @@ UnderlineTypos is a simple Chrome extension that underlines spelling errors in t
 
 ### Prerequisites
 
-To build and run this application, you need to have Node.js and npm (Node Package Manager) installed on your machine. You can download the latest version of Node.js from the official [website](https://nodejs.org/en/download/) or use your package manager.
+To build and run this extension, you need to have Node.js and npm (Node Package Manager) installed on your machine. You can download the latest version of Node.js from the official [website](https://nodejs.org/en/download/) or use your package manager.
 
 ### Installing Dependencies
 
@@ -33,11 +33,23 @@ To run the extension, open the chrome://extensions/ and use the Load Unpacked bu
 
 ## Usage
 
-Once you have it installed running, simply open any webpage. The extension will automatically highlight any misspelled words with a wavy red underline.
+Once you have it installed running, simply open any webpage. The extension will automatically highlight any misspelled words.
+
+Here's how it looked like against my leanercloud.com website:
+![screenshot](https://i.postimg.cc/zzF3pGKC/Screenshot-2023-05-09-at-22-56-39.png)
+
+## Known issues
+
+- the LibreOffice dictionaries are hardcoded to en_US, and also seem to be missing many words
+- it doesn't handle some punctuation characters
+- it messes up with the DOM in some cases
+- it's slowing down the browser
+- dictionaries are downloaded and built into the extension at compile time.
 
 ## Contributing
 
-If you find any bugs or issues with the application, feel free to open an issue on GitHub or submit a pull request with a fix. We welcome contributions from the community.
+If you find any bugs or issues with this extension, feel free to open an issue on GitHub or submit a pull request with a fix. We welcome contributions from the community.
+
 
 ## License
 
