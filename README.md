@@ -29,13 +29,13 @@ This will compile the TypeScript code to JavaScript and generate some files in t
 
 ### Installing the extension locally
 
-To run the extension, open the chrome://extensions/ and use the Load Unpacked button, pointing to the dist directory.
+To run the extension, open the [chrome://extensions/](chrome://extensions/) and use the Load Unpacked button, pointing to the dist directory.
 
 ## Usage
 
 Once you have it installed running, simply open any webpage. The extension will automatically highlight any misspelled words.
 
-Here's how it looked like against my leanercloud.com website:
+Here's how it looked like against my [leanercloud.com](leanercloud.com) website:
 ![screenshot](https://i.postimg.cc/zzF3pGKC/Screenshot-2023-05-09-at-22-56-39.png)
 
 ## Known issues
