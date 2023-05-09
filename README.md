@@ -35,7 +35,8 @@ To run the extension, open the [chrome://extensions/](chrome://extensions/) and 
 
 Once you have it installed running, simply open any webpage. The extension will automatically highlight any misspelled words.
 
-Here's how it looked like against my [leanercloud.com](leanercloud.com) website:
+Here's how it looked like against my [leanercloud.com](https://leanercloud.com) website:
+
 ![screenshot](https://i.postimg.cc/zzF3pGKC/Screenshot-2023-05-09-at-22-56-39.png)
 
 ## Known issues
